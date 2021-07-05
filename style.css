@@ -1,0 +1,93 @@
+body{
+    background-color: #f7faf7;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+ul{ display:flex;
+    list-style-type:none;
+}
+li{
+    
+        background: green;
+        margin: 5px;
+        padding: 3px 8px;
+        color:white;
+}
+.section-area{
+    display:flex;
+}
+.half-div{
+    width:40%;
+    padding:5%;
+    margin-left:25px;
+}
+.half-div-text{
+  
+    padding:100px 0 0 0
+
+}
+
+.half-div img{
+    width:100%;
+    
+}
+.half-div a{
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(#75c913 ,#ecb810);
+    border-radius: 8px;
+   
+}
+span{
+    color:orange;
+}
+.about-section{
+    background-image:url(images/snd-scetion-back.png);
+    background-repeat:no-repeat;
+
+
+}
+.food-menu-div{
+    width:500px;
+    margin:auto;
+}
+ .food-menu-div h3{
+    text-align:center;
+}
+.three-div{
+    width:300px;
+    margin:5px 16px;
+}
+.three-div img{
+    width:100%;
+    margin-top:5px;
+    border-radius: 8px;
+}
+.recepi-container{
+    margin: 10px 0 0 18px;
+    background-color: white;
+    color: #0d0c0c;
+    border-radius: 8px;
+    box-shadow: 0px 9px 9px 0px #8a8282;
+}
+.last-div{
+    box-shadow: 3px 3px 17px black;
+    width: 500px;
+    display: flex;
+    margin: 80px 0 40px 250px;
+    border: 2px solid #ada8a8;
+    border-radius:8px;
+}
+.subs{
+    padding:0 0 0 80px;
+}
+footer{
+    background:black;
+    color:white;
+    padding:4px 15px;
+}
+.footer-div{
+    text-align:center;
+}
